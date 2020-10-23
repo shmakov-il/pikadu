@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pikadu - главная</title>
+  <!-- Подключаем normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Подключаем стили -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Создаем шапку сайта -->
+    <header class="header">
+      <div class="header-wrapper">
+        <a href="/" class="header-logo"><img class="header-logo-image" src="img/logo.svg" alt="logo: Pikadu"></a>
+        <nav class="header-nav">
+          <ul class="header-menu">
+            <li class="header-menu-item"><a href="#" class="header-menu-link">Свежее</a></li>
+            <li class="header-menu-item"><a href="#" class="header-menu-link">Лучшее</a></li>
+            <li class="header-menu-item"><a href="#" class="header-menu-link">Горячее</a></li>
+            <li class="header-menu-item"><a href="#" class="header-menu-link">Подписки</a></li>
+          </ul>
+        </nav>
+        <!-- /.header-nav -->
+        <div class="input-group search">
+          <input type="search" class="search-input" placeholder="Поиск по сайту">
+          <button class="search-button">
+            <img src="img/search.svg" alt="icon: search" class="search-icon">
+          </button>
+        </div>
+        <a href="#" class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <!-- /.input-group search -->
+      </div>
+      <!-- /.header-wrapper -->
+    </header>
+    
+    <div class="content">
+      <main class="posts">
+        <section class="post">
+          <div class="post-body">
+            <h2 class="post-title">Что значил для человечества первый выход в открытый космос?</h2>
+            <p class="post-text">Первый выход в открытый космос сопоставим с первым полетом Гагарина. Это события одного ряда. Первый выход был очень
+            сложным, операция была рискованной. Но все кончилось благополучно.</p>
+            <p class="post-text">Тогда, в 1965 году, было очень много аварийных ситуаций, на грани катастрофы. Вот две из них. Первая — Алексею Леонову
+            не удалось спокойно вернуться на корабль из-за того, что скафандр раздулся непредвиденно. Он затратил много сил и очень
+            рисковал, просто при возвращении обратно в корабль. Ему пришлось отходить от инструкции: если ничего не путаю, пришлось
+            входить не ногами вперед, а головой. Вторая — проблема при посадке корабля на Землю. Их корабль исчез далеко от намеченной точки, в тайге, двое суток до него не могли добраться спасатели. Вот такое приключение под конец полета. Там много было аварий. Это две самые серьезные.</p>
+            <p class="post-text">Первый выход бы состоялся бы в любом случае. Но полет в космос — это сложная рискованная операция. А при том, что
+            называется внекорабельная деятельность (ВКД), которой очень много сейчас, выход в открытый космос — неотъемлемая часть
+            почти всех работ. Построить космические станции, вроде МКС или «Мир», без выхода в открытый космос практически
+            невозможно. Хотя часть работ приходится делать за бортом станции.</p>
+            <p class="post-text">Алексей Леонов командовал нашим кораблем «Союз-19» по программе «Союз — Аполлон». Это если говорить о полетах в космос.
+            А еще он был космическим художником, довольно редкое ремесло: он рисовал очень красивые космические пейзажи. Также
+            Леонов вел активную общественную деятельность по пропаганде космонавтики: много выступал, рассказывал о космосе.</p>
+            <p class="post-text">Его смерть — это большая потеря.</p>
+            <div class="tags">
+              <a href="#" class="tag">#космос</a>
+              <a href="#" class="tag">#союз</a>
+              <a href="#" class="tag">#гагарин</a>
+              <a href="#" class="tag">#леонов</a>
+            </div>
+          </div>
+          <div class="post-footer">
+            <div class="post-buttons">
+              <button class="post-button likes">
+                <svg width="19" height="20" class="icon icon-like">
+                  <use xlink:href="img/icons.svg#like"></use>
+                </svg>
+                <span class="likes-counter">2</span>
+              </button>
+              <button class="post-button comments">
+                <svg width="21" height="21" class="icon icon-comment">
+                  <use xlink:href="img/icons.svg#comment"></use>
+                </svg>
+                <span class="comments-counter">0</span>
+              </button>
+              <button class="post-button save">
+                <svg width="19" height="19" class="icon icon-save">
+                  <use xlink:href="img/icons.svg#save"></use>
+                </svg>
+              </button>
+              <button class="post-button share">
+                <svg width="17" height="19" class="icon icon-share">
+                  <use xlink:href="img/icons.svg#share"></use>
+                </svg>
+              </button>
+            </div>
+            <!-- /.post-buttons -->
+            <div class="post-author">
+              <div class="author-about">
+                <a href="" class="author-username">Cosmic Man</a>
+                <span class="post-time">только что</span>
+              </div>
+              <a href="#" class="author-link"><img src="img/people-one.jpg" alt="avatar" class="author-avatar"></a>
+            </div>
+            <!-- /.author -->
+          </div>
+        </section>
+                <section class="post">
+                  <div class="post-body">
+                    <h2 class="post-title">Егерь</h2>
+                    <p class="post-text">Знойный и душный полдень. На небе ни облачка... Выжженная солнцем трава глядит уныло, безнадежно: хоть и будет дождь, но
+                    уж не зеленеть ей... Лес стоит молча, неподвижно, словно всматривается куда-то своими верхушками или ждет чего-то.!</p>
+                    <p class="post-text">По краю сечи лениво, вразвалку, плетется высокий узкоплечий мужчина лет сорока, в красной рубахе, латаных господских
+                    штанах и в больших сапогах. Плетется он по дороге. Направо зеленеет сеча, налево, до самого горизонта, тянется
+                    золотистое море поспевшей ржи... Он красен и вспотел. На его красивой белокурой голове ухарски сидит белый картузик с
+                    прямым, жокейским козырьком, очевидно подарок какого-нибудь расщедрившегося барича. Через плечо перекинут ягдташ, в
+                    котором лежит скомканный петух-тетерев. Мужчина держит в руках двустволку со взведенными курками и щурит глаза на своего
+                    старого, тощего пса, который бежит впереди и обнюхивает кустарник. Кругом тихо, ни звука... Всё живое попряталось от
+                    зноя.</p>
+                    <p class="post-text">— Егор Власыч! — слышит вдруг охотник тихий голос.</p>
+                    <p class="post-text">Он вздрагивает и, оглядевшись, хмурит брови. Возле него, словно из земли выросши, стоит бледнолицая баба лет тридцати, с
+                    <p class="post-text"><i>Продолжение следует...</i></p>
+                    <div class="tags">
+                      <a href="#" class="tag">#чехов</a>
+                      <a href="#" class="tag">#егерь</a>
+                      <a href="#" class="tag">#классическаялитература</a>
+                      <a href="#" class="tag">#русскаялитература</a>
+                      <a href="#" class="tag">#культурныйуровень</a>
+                    </div>
+                  </div>
+                  <div class="post-footer">
+                    <div class="post-buttons">
+                      <button class="post-button likes">
+                        <svg width="19" height="20" class="icon icon-like">
+                          <use xlink:href="img/icons.svg#like"></use>
+                        </svg>
+                        <span class="likes-counter">92</span>
+                      </button>
+                      <button class="post-button comments">
+                        <svg width="21" height="21" class="icon icon-comment">
+                          <use xlink:href="img/icons.svg#comment"></use>
+                        </svg>
+                        <span class="comments-counter">191</span>
+                      </button>
+                      <button class="post-button save">
+                        <svg width="19" height="19" class="icon icon-save">
+                          <use xlink:href="img/icons.svg#save"></use>
+                        </svg>
+                      </button>
+                      <button class="post-button share">
+                        <svg width="17" height="19" class="icon icon-share">
+                          <use xlink:href="img/icons.svg#share"></use>
+                        </svg>
+                      </button>
+                    </div>
+                    <!-- /.post-buttons -->
+                    <div class="post-author">
+                      <div class="author-about">
+                        <a href="" class="author-username">Bookworm</a>
+                        <span class="post-time">53 минуты назад</span>
+                      </div>
+                      <a href="#" class="author-link"><img src="img/people-two.jpg" alt="avatar" class="author-avatar"></a>
+                    </div>
+                    <!-- /.author -->
+                  </div>
+                </section>
+      </main>
+      <!-- /.posts -->
+      <aside class="sidebar">
+        <div class="user">
+          <a href="#" class="user-info">
+            <img src="img/avatar.jpg" alt="user-avatar" width="40" height="40" class="user-avatar">
+            <span class="user-name">Mike Shell</span>
+          </a>
+          <a href="#" class="exit">
+            <svg class="icon icon-exit" width="20" height="20">
+              <use xlink:href="img/icons.svg#exit"></use>
+            </svg>
+          </a>
+        </div>
+        <nav class="sidebar-nav">
+          <ul class="sidebar-menu">
+            <li class="sidebar-menu-item">
+              <a href="#" class="sidebar-menu-link">Ответы</a>
+            </li>
+            <li class="sidebar-menu-item">
+              <a href="#" class="sidebar-menu-link">Комментарии</a>
+            </li>
+            <li class="sidebar-menu-item">
+              <a href="#" class="sidebar-menu-link">Оценки</a>
+            </li>
+            <li class="sidebar-menu-item">
+              <a href="#" class="sidebar-menu-link active">Сохраненное</a>
+            </li>
+            <li class="sidebar-menu-item">
+              <a href="#" class="sidebar-menu-link">Подписки</a>
+            </li>
+            <li class="sidebar-menu-item">
+              <a href="#" class="sidebar-menu-link">Заметки</a>
+            </li>
+            <li class="sidebar-menu-item">
+              <a href="#" class="sidebar-menu-link">Игнор-лист</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="new-post.html" class="button button-new-post">
+          <svg class="icon icon-fire">
+            <use xlink:href="img/icons.svg#fire"></use>
+          </svg>
+          Опубликовать пост
+        </a>
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Комментарий дня</h2>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-body-title">Как обмануть банкомат, если вы хотите снять больше наличных</a>
+            <p class="card-text">Таким образом укрепление и развитие структуры требуют от нас анализа форм развития. Не следует, однако забывать, что реализация намеченных плановых заданий требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же консультация...</p>
+          </div>
+        </div>
+        <a href="#" class="promo"></a>
+      </aside>
+      <!-- /.sidebar -->
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
